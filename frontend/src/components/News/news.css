@@ -1,0 +1,107 @@
+.News {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    /* background-image: linear-gradient(to right, #ff0000, #ffffff);  */
+    box-sizing: border-box;
+    
+  }
+  
+  /* Center the dropdowns */
+  .dropdowns {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically align the dropdowns */
+    margin-bottom: 20px;
+  }
+  
+  /* Improve dropdown styles */
+  .select-container {
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .select-container label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px; /* Adjust spacing */
+  }
+  
+  .select-container select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #f0f0f0; /* Add a light background color */
+    transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out; /* Add smooth transitions */
+  }
+  
+  .select-container select:hover,
+  .select-container select:focus {
+    border-color: #007bff;
+    background-color: #fff; /* Highlight the background on hover/focus */
+  }
+  
+  /* Center-align the page content */
+  .news-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Responsive card layout */
+  .news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /* Enhance card styles */
+  .news-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: calc(30% - 20px); /* Calculate width with margins subtracted */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff; /* Add a white background color */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Add smooth transitions */
+    cursor: pointer; /* Add cursor on hover */
+  
+  }
+  
+  
+  .news-card:hover {
+    transform: scale(1.05); /* Enlarge card on hover */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #333;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .card-description {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 15px; /* Adjust spacing */
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  
+  .card-content {
+    margin-top: 10px;
+    color: #333;
+  }
+  .card-link:hover {
+    color: #0056b3;
+  }
+  
